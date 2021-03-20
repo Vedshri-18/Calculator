@@ -8,3 +8,5 @@ class MyTestCase(unittest.TestCase):
         self.assertIsInstance(calculator, Calculator)
 
 
+if __name__ == '__main__':
+    unittest.main()
